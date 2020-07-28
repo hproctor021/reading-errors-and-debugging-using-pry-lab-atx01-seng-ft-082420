@@ -10,7 +10,7 @@ def state_log(star_date)
 end
 
 def crew
-  ["Max", "Lepew", "Mizz", "Noir"]
+  ["Ay Max.", "Ay Lepew.", "Ay Mizz.", "Ay Noir."]
 end
 
 def greet_crew(crew)
