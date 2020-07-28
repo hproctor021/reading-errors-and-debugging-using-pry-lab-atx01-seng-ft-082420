@@ -1,7 +1,7 @@
 #require 'pry'
 
 def generate_star_date
-  star_date = (rand(100000) + 400000) / 10.0
+  (rand(100000) + 400000) / 10.0
 end
 
 
@@ -18,7 +18,7 @@ def greet_crew(crew)
 end
 
 def engage
-  puts date = generate_star_date
-  puts state_log(star_date)
-  puts greet_crew(crew)
+  date = generate_star_date
+  state_log(star_date)
+  greet_crew(crew)
 end
