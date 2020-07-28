@@ -22,4 +22,3 @@ def engage
   state_log(star_date)
   greet_crew(crew)
 end
-binding.pry
