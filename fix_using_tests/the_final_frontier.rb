@@ -1,8 +1,7 @@
 require 'pry'
 
 def generate_star_date
-  x = (rand(100000) + 400000) / 10.0
-  print x
+  star_date = (rand(100000) + 400000) / 10.0
 end
 
 
