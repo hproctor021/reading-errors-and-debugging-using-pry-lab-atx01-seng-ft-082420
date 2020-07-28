@@ -6,11 +6,11 @@ end
 
 
 def state_log(star_date)
-  "Captain's Log, star date #{star_date}."
+  puts "Captain's Log, star date #{star_date}."
 end
 
 def crew
-  ["Ay Max.", "Ay Lepew.", "Ay Mizz.", "Ay Noir."]
+  ["Max", "Lepew", "Mizz", "Noir"]
 end
 
 def greet_crew(crew)
